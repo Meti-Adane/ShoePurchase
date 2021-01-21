@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+body{
+    font-family: 'Times New Roman', Times, serif !important;
+    min-height: 100%;
+}
+@media screen and (max-width:768px){
+    .navbar-nav li{
+        text-align: right;
+        margin-right: 10px;
+    }
+}
+form{
+    width: 700px;
+}
+footer ul {
+    list-style-type: circle;
+}
+footer{
+    color: #F7FFF7;
+    background-color: #040404;
+}
+.login{
+    margin-bottom: 3000px;
+}

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+body{
+    font-family: 'Times New Roman', Times, serif !important;
+}
+@media screen and (max-width:768px){
+    .navbar-nav li{
+        text-align: right;
+        margin-right: 10px;
+    }
+}
+.carousel-item {
+    width:100%; 
+    overflow:hidden; 
+    margin:0;   
+}
+.carousel-item img{
+    display:block; /*remove inline-block spaces*/
+    width:100%; /*make image streatch*/
+    margin:-16.875% 0;
+}
+footer ul {
+    list-style-type: circle;
+}
+footer{
+    bottom: 0;
+    color: #F7FFF7;
+}
